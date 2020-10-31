@@ -9,7 +9,6 @@
   "author": "nakatanakatana",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^7.12.1",
     "lerna": "^3.22.1"
   }
 }
