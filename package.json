@@ -1,0 +1,15 @@
+{
+  "name": "@nakatanakatana/eslint-config",
+  "version": "0.0.1",
+  "description": "eslint-config",
+  "repository": "nakatanakatana/eslint-config",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nakatanakatana",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "lerna": "^3.22.1"
+  }
+}
