@@ -11,6 +11,9 @@ module.exports = {
     'import',
     'sonarjs',
   ],
+  rules: {
+    'complexity': ['error', 5]
+  },
   parser: '@typescript-eslint/parser',
   parserOptions: {
     'sourceType': 'module',
