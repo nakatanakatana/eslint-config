@@ -17,6 +17,7 @@
     "url": "https://github.com/nakatanakatana/eslint-config/issues"
   },
   "dependencies": {
-    "@nakatanakatana/eslint-config-dom": "^0.0.3"
+    "@nakatanakatana/eslint-config-dom": "^0.0.3",
+    "eslint-plugin-vue": "^7.16.0"
   }
 }
