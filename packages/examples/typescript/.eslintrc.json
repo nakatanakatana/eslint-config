@@ -2,5 +2,8 @@
   "extends": [
     "eslint:recommended",
     "@nakatanakatana/eslint-config-typescript"
-  ]
+  ],
+  "rules": {
+    "sonarjs/cognitive-complexity": ["error", 1]
+  }
 }
