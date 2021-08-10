@@ -3,7 +3,7 @@
   "engines": {
     "node": ">=14"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "tanaka <nakatanakatana@gmail.com>",
   "homepage": "https://github.com/nakatanakatana/eslint-config#readme",
   "license": "MIT",
