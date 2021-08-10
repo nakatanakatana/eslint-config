@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    '@nakatanakatana/eslint-config-dom',
-    'plugin:react/recommended',
+    '@nakatanakatana/eslint-config-typescript',
+    'plugin:compat/recommended',
   ],
   env: {
     es6: true,

@@ -1,26 +1,25 @@
 {
-  "name": "@nakatanakatana/eslint-config-base",
+  "name": "@nakatanakatana/example-typescript",
+  "engines": {
+    "node": ">=14"
+  },
   "version": "0.0.1",
-  "description": "base eslint-config",
   "author": "tanaka <nakatanakatana@gmail.com>",
   "homepage": "https://github.com/nakatanakatana/eslint-config#readme",
   "license": "MIT",
   "main": "index.js",
   "repository": "nakatanakatana/eslint-config",
-  "publishConfig": {
-    "access": "public"
-  },
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "lint": "eslint --ext .ts ./src",
+    "fix": "eslint --fix --ext .ts ./src"
   },
   "bugs": {
     "url": "https://github.com/nakatanakatana/eslint-config/issues"
   },
   "devDependencies": {
-    "eslint": "^7.12.1"
-  },
-  "dependencies": {
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-plugin-prettier": "^3.1.4"
+    "@nakatanakatana/eslint-config-typescript": "^0.0.1",
+    "eslint": "^7.32.0",
+    "typescript": "^4.3.5"
   }
 }

@@ -1,2 +1,0 @@
-# `@nakatanakatana/eslint-config-base`
-

@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "@nakatanakatana/eslint-config-typescript"
+  ]
+}

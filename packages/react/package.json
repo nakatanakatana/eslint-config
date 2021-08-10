@@ -1,7 +1,9 @@
 {
   "name": "@nakatanakatana/eslint-config-react",
+  "engines": {
+    "node": ">=14"
+  },
   "version": "0.0.1",
-  "description": "> TODO: description",
   "author": "tanaka <nakatanakatana@gmail.com>",
   "homepage": "https://github.com/nakatanakatana/eslint-config#readme",
   "license": "MIT",
@@ -10,14 +12,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
+  "scripts": {},
   "bugs": {
     "url": "https://github.com/nakatanakatana/eslint-config/issues"
   },
   "dependencies": {
-    "@nakatanakatana/eslint-config-typescript": "^0.0.1",
-    "eslint-plugin-react": "^7.21.5"
+    "@nakatanakatana/eslint-config-dom": "^0.0.1"
   }
 }

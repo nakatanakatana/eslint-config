@@ -1,11 +1,15 @@
 module.exports = {
   extends: [
-    '@nakatanakatana/eslint-config-base',
+    'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
+    'plugin:import/recommended',
+    'plugin:sonarjs/recommended',
+    'prettier',
   ],
   plugins: [
     '@typescript-eslint',
+    'import',
+    'sonarjs',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
