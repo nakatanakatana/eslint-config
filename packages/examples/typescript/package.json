@@ -18,7 +18,7 @@
     "url": "https://github.com/nakatanakatana/eslint-config/issues"
   },
   "devDependencies": {
-    "@nakatanakatana/eslint-config-typescript": "^0.0.1",
+    "@nakatanakatana/eslint-config-typescript": "0.0.3",
     "eslint": "^7.32.0",
     "typescript": "^4.3.5"
   }
