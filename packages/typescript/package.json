@@ -1,8 +1,5 @@
 {
   "name": "@nakatanakatana/eslint-config-typescript",
-  "engines": {
-    "node": ">=14"
-  },
   "version": "0.0.5",
   "author": "tanaka <nakatanakatana@gmail.com>",
   "homepage": "https://github.com/nakatanakatana/eslint-config#readme",

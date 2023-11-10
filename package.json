@@ -9,6 +9,14 @@
   "author": "nakatanakatana",
   "license": "MIT",
   "devDependencies": {
-    "lerna": "4.0.0"
+    "turbo": "^1.10.16"
+  },
+  "workspaces": [
+    "examples/*",
+    "packages/*"
+  ],
+  "volta": {
+    "node": "20.9.0",
+    "npm": "10.2.3"
   }
 }
