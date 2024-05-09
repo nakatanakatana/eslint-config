@@ -14,17 +14,17 @@
     "url": "https://github.com/nakatanakatana/eslint-config/issues"
   },
   "devDependencies": {
-    "eslint": "^8.0.0",
+    "eslint": "^9.0.0",
     "typescript": "^5.0.0"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0 || ^8.0.0",
+    "eslint": "^7.0.0 || ^8.0.0 || ^9.0.0",
     "typescript": "^3.0.0 || ^4.3.5 || ^5.0.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
-    "eslint": "^8.0.0",
+    "eslint": "^9.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-sonarjs": "^0.23.0"
